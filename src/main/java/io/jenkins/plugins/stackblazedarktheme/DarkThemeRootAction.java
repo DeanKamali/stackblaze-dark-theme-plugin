@@ -1,7 +1,7 @@
-package io.jenkins.plugins.darktheme;
+package io.jenkins.plugins.stackblazedarktheme;
 
-import static io.jenkins.plugins.darktheme.DarkThemeManagerFactory.THEME_CSS;
-import static io.jenkins.plugins.darktheme.DarkThemeManagerFactory.THEME_URL_NAME;
+import static io.jenkins.plugins.stackblazedarktheme.DarkThemeManagerFactory.THEME_CSS;
+import static io.jenkins.plugins.stackblazedarktheme.DarkThemeManagerFactory.THEME_URL_NAME;
 
 import hudson.Extension;
 import hudson.Plugin;

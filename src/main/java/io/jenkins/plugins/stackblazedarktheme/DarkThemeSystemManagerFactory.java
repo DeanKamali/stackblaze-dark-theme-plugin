@@ -1,6 +1,6 @@
-package io.jenkins.plugins.darktheme;
+package io.jenkins.plugins.stackblazedarktheme;
 
-import static io.jenkins.plugins.darktheme.DarkThemeManagerFactory.*;
+import static io.jenkins.plugins.stackblazedarktheme.DarkThemeManagerFactory.*;
 
 import edu.umd.cs.findbugs.annotations.NonNull;
 import hudson.Extension;

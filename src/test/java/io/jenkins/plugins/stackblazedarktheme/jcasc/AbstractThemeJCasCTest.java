@@ -1,4 +1,4 @@
-package io.jenkins.plugins.darktheme.jcasc;
+package io.jenkins.plugins.stackblazedarktheme.jcasc;
 
 import static io.jenkins.plugins.casc.misc.Util.toStringFromYamlFile;
 import static io.jenkins.plugins.casc.misc.Util.toYamlString;

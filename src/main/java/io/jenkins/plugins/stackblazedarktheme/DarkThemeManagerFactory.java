@@ -1,4 +1,4 @@
-package io.jenkins.plugins.darktheme;
+package io.jenkins.plugins.stackblazedarktheme;
 
 import edu.umd.cs.findbugs.annotations.NonNull;
 import hudson.Extension;
