@@ -1,5 +1,5 @@
 {
-  "name": "dark-theme-plugin",
+  "name": "stackblaze-dark-theme-plugin",
   "version": "1.0.0",
   "scripts": {
     "mvnbuild": "npm run build",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jenkinsci/dark-theme-plugin.git"
+    "url": "git+https://github.com/DeanKamali/stackblaze-dark-theme-plugin.git"
   },
   "author": "Tim Jacomb",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jenkinsci/dark-theme-plugin/issues"
   },
-  "homepage": "https://github.com/jenkinsci/dark-theme-plugin#readme",
+  "homepage": "https://github.com/DeanKamali/stackblaze-dark-theme-plugin#readme",
   "devDependencies": {
     "sass": "1.93.2"
   }
