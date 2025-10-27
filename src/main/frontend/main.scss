@@ -1,12 +1,12 @@
 @use "sass:color";
 
 @mixin dark-mode {
-  --background: oklch(from var(--white) 0.175 0.013 h);
-  --accent-color: oklch(65.13% 0.1987 265);
+  --background: #1A1D26;
+  --accent-color: #FF6B35;
 
   /* Text */
-  --text-color: var(--white);
-  --text-color-secondary: oklch(from var(--white) 0.7 0.038 h);
+  --text-color: #FFFFFF;
+  --text-color-secondary: #B0B0B0;
 
   /* Tooltips */
   --tooltip-box-shadow:
@@ -28,44 +28,34 @@
   --table-background: var(--card-background);
 
   /* Tab bar */
-  --tabs-item-background--selected: oklch(
-      from var(--text-color-secondary) l c h / 0.175
-  );
+  --tabs-item-background--selected: rgba(255, 255, 255, 0.1);
 
   /* Side panel */
-  --panel-border-color: color-mix(in oklch, var(--text-color-secondary) 15%, var(--background));
+  --panel-border-color: rgba(176, 176, 176, 0.15);
 
   /* Form */
-  --input-color: color-mix(in oklch, var(--text-color-secondary) 5%, var(--background));
-  --input-border: color-mix(in oklch, var(--text-color-secondary) 30%, var(--background));
-  --input-border-hover: color-mix(in oklch, var(--text-color-secondary) 40%, var(--background));
-  --focus-input-glow: oklch(from var(--focus-input-border) l c h / 0.2);
+  --input-color: #2C3240;
+  --input-border: rgba(176, 176, 176, 0.3);
+  --input-border-hover: rgba(176, 176, 176, 0.5);
+  --focus-input-glow: rgba(255, 107, 53, 0.3);
 
   /* Plugin manager */
   --plugin-manager-bg-color-already-upgraded: var(--dark-theme-bg-medium);
 
   // Default button
-  --button-background: oklch(from var(--text-color-secondary) l c h / 0.075);
-  --button-background--hover: oklch(
-      from var(--text-color-secondary) l c h / 0.125
-  );
-  --button-background--active: oklch(
-      from var(--text-color-secondary) l c h / 0.175
-  );
-  --button-box-shadow--focus: oklch(
-      from var(--text-color-secondary) l c h / 0.1
-  );
+  --button-background: #2C3240;
+  --button-background--hover: #3A4152;
+  --button-background--active: #4A5265;
+  --button-box-shadow--focus: rgba(255, 107, 53, 0.2);
 
   // Variables for sidebar items, card items
-  --item-background--hover: oklch(from var(--text-color-secondary) l c h / 0.1);
-  --item-background--active: oklch(
-      from var(--text-color-secondary) l c h / 0.15
-  );
-  --item-box-shadow--focus: oklch(from var(--text-color-secondary) l c h / 0.1);
+  --item-background--hover: rgba(255, 255, 255, 0.05);
+  --item-background--active: rgba(255, 255, 255, 0.1);
+  --item-box-shadow--focus: rgba(255, 107, 53, 0.2);
 
   /* Card */
-  --card-background: color-mix(in oklch, var(--text-color-secondary) 7.5%, var(--background));
-  --card-border-color: var(--prefers-contrast, color-mix(in oklch, var(--text-color-secondary) 10%, var(--card-background)));
+  --card-background: #242831;
+  --card-border-color: rgba(176, 176, 176, 0.1);
 
   @media (prefers-contrast: more) {
     --prefers-contrast: var(--text-color);
@@ -96,7 +86,7 @@
     "cyan": oklch(80.37% 0.1296 232.62),
     "green": oklch(80.25% 0.2197 147.09),
     "indigo": oklch(57.48% 0.26 281.95),
-    "orange": oklch(79.58% 0.1862 62.09),
+    "orange": #FF6B35,
     "pink": oklch(70.1% 0.25 13.88),
     "purple": oklch(62.75% 0.2634 311.52),
     "red": oklch(66.82% 0.2393 29.84),
