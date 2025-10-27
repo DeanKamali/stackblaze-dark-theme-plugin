@@ -31,7 +31,12 @@
   --tabs-item-background--selected: rgba(255, 255, 255, 0.1);
 
   /* Side panel */
+  --panel-background: #1A1D26;
   --panel-border-color: rgba(176, 176, 176, 0.15);
+  --sidebar-background: #1A1D26;
+  --sidebar-item-background: transparent;
+  --sidebar-item-background--hover: rgba(255, 255, 255, 0.05);
+  --sidebar-item-background--active: rgba(255, 255, 255, 0.1);
 
   /* Form */
   --input-color: #2C3240;
